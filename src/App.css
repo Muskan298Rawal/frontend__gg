@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.grid_contentl1 {
+  background-color: rgba(95, 95, 233, 0.795);
+  color : white;
+  height: 50vh !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid_contentl2 {
+  background-color: rgb(95, 95, 233);
+  color : white;
+  height: 50vh !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading_down{
+  font-size: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.span_icon{
+  height: 30px !important;
+  width: 30px !important;
+  margin-left: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.span_icon_arrow {
+  height: 25px !important;
+  width: 25px !important;
+  margin-left: 20px;
+  color: rgba(128, 128, 128, 0.39) !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid_right_down{
+  background-color: rgba(128, 128, 128, 0.219);
+  max-height: 85vh;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.733);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+.grid_right_down_items{
+  background-color: white;
+  padding: 10px;
+}
+.publisher{
+  color: grey;
+  font-size: 12px;
+}
+.para{
+  font-size: 10px;
+}
+.navbar {
+  background-color:  rgba(95, 95, 233, 0.849);
+  color : white;
+  height: 80px;
+}
+.navbar_down{
+  margin-top: 20px;
+}
+.table td{
+  color: rgba(75, 74, 74, 0.781);
+  font-size: 15px;
+  font-weight: bold;
+}
+.table{
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
